@@ -14,13 +14,13 @@ namespace BookReader
         private int _textWidth = DefaultTextWidth;
         private int _textHeight = DefaultTextHeight;
 
-        public List<Page> Pages { get; } = new List<Page>();
+        public List<Page> Pages { get; set; } = new List<Page>();
 
         public Book(string text)
         {
             this._text = text;
-            ProcessText();
-            ProcessPages(_text);
+
+            ProcessPages(ProcessText(_text));
         }
 
         public string GetText => _text;
@@ -42,24 +42,29 @@ namespace BookReader
             return Pages[index];
         }
 
-        public void Update()
+        public void Update(int size)
         {
-            ProcessText();
-            ProcessPages(_text);
+            Pages = new List<Page>();
+            _textHeight = (DefaultTextHeight / 5) * size;
+            _textWidth = (DefaultTextWidth / 5) * size;
+            ProcessPages(ProcessText(_text));
         }
 
-        private void ProcessText()
+        private String ProcessText(String text)
         {
             bool newLine = false;
+            String ret = text;
 
             for (int i = 0; i < GetText.Length; i++)
             {
                 if (i % _textWidth == 0)
                 {
-                    _text =GetText.Insert(i, "\t\n\t");
+                    ret = ret.Insert(i, "\t\n\t");
                     newLine = !newLine;
                 }
             }
+
+            return ret;
         }
 
         private void ProcessPages(String text)
