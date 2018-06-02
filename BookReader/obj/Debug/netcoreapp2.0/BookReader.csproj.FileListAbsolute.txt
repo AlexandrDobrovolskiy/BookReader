@@ -1,0 +1,11 @@
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.csprojResolveAssemblyReference.cache
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.AssemblyInfoInputs.cache
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.AssemblyInfo.cs
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\bin\Debug\netcoreapp2.0\BookReader.deps.json
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\bin\Debug\netcoreapp2.0\BookReader.runtimeconfig.json
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\bin\Debug\netcoreapp2.0\BookReader.runtimeconfig.dev.json
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\bin\Debug\netcoreapp2.0\BookReader.dll
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\bin\Debug\netcoreapp2.0\BookReader.pdb
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.dll
+C:\Users\Alexandr\Source\Repos\BookReader\BookReader\obj\Debug\netcoreapp2.0\BookReader.pdb
